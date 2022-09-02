@@ -1,0 +1,50 @@
+body {
+font-family: 'Montserrat', sans-serif;
+background-color: #F5F7FA;
+}
+
+.main {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 40px auto;
+}
+
+.main_content {
+    background-color: #FFFFFF;
+}
+
+.about_user {
+    margin-top: 102px;
+    margin-left: 88px;
+    margin-bottom: 40px;
+}
+
+.about_user p {
+    width: 400px;
+}
+
+.projects {
+    margin-left: 88px;
+    margin-bottom: 36px;
+}
+
+.work_experience {
+    margin-left: 88px;
+    margin-bottom: 43px;
+}
+
+.education {
+    margin-left: 88px;
+    margin-bottom: 107px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #1E2939;
+    width: 370px;
+}
+
+.img {
+    margin-top: 40px;
+}
