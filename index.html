@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Resume 1</title>
+    <title>Resume</title>
 </head>
 <body>
     <!--Main-->
@@ -90,36 +90,40 @@
 
         <!--Sidebar-->
         <aside class="sidebar">
-            <img class="img" src="img/my_photo.jpg" alt="my_photo">
+            <img class="photo" src="img/my_photo.jpg" alt="my_photo">
             <!--Contacts-->
-            <div>
-                <h3>Contacts</h3>
+            <div class="contacts">
+                <h3 class="sidebar-title">Contacts</h3>
                 <div>
-                    <p>C: <a href="tel:+7 777 777 77 77"></a>+7 777 777 77 77</p> 
-                    <p>E: <a href="mailto:chornyiav@gmail.com"></a>chornyiav@gmail.com</p> 
+                <span class="contact-type">C:</span>
+                <a class="contact-phone" href="tel:+7 777 777 77 77">+7 777 777 77 77</a>
+                <br>
+                <span class="contact-type"">E:</span>
+                <a class="contact-email" href="mailto:chornyiav@gmail.com">chornyiav@gmail.com</a>
+                    
                 </div>
             </div>
             <!--Tech Skills-->
-            <div>
-                <h3>Tech Skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS3</li>
-                    <li>GIT</li>
-                    <li>WebPack</li>
-                    <li>JavaScript</li>
-                    <li>React.js</li>
-                    <li>Node.js</li>
+            <div class="tech_skills">
+                <h3 class="sidebar-title">Tech Skills</h3>
+                <ul class="tech_skills-list">
+                    <li class="tech_skills_item"><span class="tech_skills-text">HTML5</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills-text">CSS3</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills-text">GIT</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills-text">WebPack</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills-text">JavaScript</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills-text">React.js</span></li>
+                    <li class="tech_skills_item"><span class="tech_skills-text">Node.js</span></li>
                 </ul>
             </div>
             <!--Soft Skills-->
-            <div>
-                <h3>Soft Skills</h3>
-                <ul>
-                    <li>Scrum</li>
-                    <li>Agile</li>
-                    <li>GTD</li>
-                    <li>Teamwork</li>
+            <div class="soft_skills">
+                <h3 class="sidebar-title">Soft Skills</h3>
+                <ul class="soft_skills-list">
+                    <li class="soft_skills_item"><span class="soft_skills-text">Scrum</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills-text">Agile</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills-text">GTD</span></li>
+                    <li class="soft_skills_item"><span class="soft_skills-text">Teamwork</span></li>
                 </ul>
             </div>
         </aside>
